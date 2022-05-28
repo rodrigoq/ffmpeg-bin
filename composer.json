@@ -1,0 +1,26 @@
+{
+	"name": "rodrigoq/ffmpeg-bin",
+	"description": "ffmpeg binaries",
+	"type": "library",
+	"license": "LGPL-2.1",
+	"authors": [
+		{
+			"name": "rodrigoq",
+			"homepage": "https://github.com/rodrigoq"
+		}
+	],
+	"version": "5.0.1",
+	"autoload": {
+		"psr-4": {
+			"rodrigoq\\ffmpeg\\": "src/"
+		}
+	},
+	"extra": {
+		"original": [
+			{
+				"name": "ffmpeg",
+				"url": "https://ffmpeg.org"
+			}
+		]
+	}
+}
